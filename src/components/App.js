@@ -35,14 +35,6 @@ function App() {
         <ContentWrapper />
       </div>
 
-      {/* traer datos repositorio github. Armo una funcion que se llame handleClickGit que conseolloguee los datos  */}
-
-      <div>
-        <button onClick={handleClickGitHub}> GitHub
-        </button>
-        <h3>Repo</h3>
-      </div>
-
     </React.Fragment>
   );
 }

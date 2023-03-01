@@ -3,10 +3,9 @@
 // 1- Importo el modulo de react 
 
 import React from 'react'; 
-import ContentRowMovies from './ContentRowMovies';
-import LastProductInDb from './LastProductInDb'; 
-import CategoriesInDb from './CategoriesInDb'; 
+import ContentRowMovies from './ContentRowMovies'; 
 import Chart from './Chart';
+import ContentRowCenter from './ContentRowCenter';
 
 // 2- Creo una funcion nativa de JS la cual generalmente lleva el mismo nombre del archivo y la exporto. 
 
@@ -22,12 +21,7 @@ function ContentRowTop(){
 						{/*<!-- Content Row Movies-->*/}
 						<ContentRowMovies/>
 					</div>
-					<div className="row">
-						{/*<!-- Content Row Last Movie in Data Base -->*/}
-					    <LastProductInDb/>
-						<CategoriesInDb/>
-					</div>
-
+					<ContentRowCenter/>
 				    <Chart />
 
 				</div>

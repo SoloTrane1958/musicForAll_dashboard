@@ -3,7 +3,7 @@
 // 1- Importo el modulo de react 
 
 import React, { useState } from 'react'; 
-import image from '../assets/images/logo-DH.png';
+import image from '../assets/images/Logo_PC.png';
 
 // 2- Creo una funcion nativa de JS la cual generalmente lleva el mismo nombre del archivo y la exporto. 
 
